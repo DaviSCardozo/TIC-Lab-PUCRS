@@ -1,2 +1,2 @@
 # TIC-Lab-PUCRS
-Versionamento e códigos com parceria com +praTI
+Versionamento de códigos com parceria com +praTI
