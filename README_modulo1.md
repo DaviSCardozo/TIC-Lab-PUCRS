@@ -430,3 +430,47 @@ git fetch
 ## 🏆 Resumo Final
 
 O Git é um sistema de controle de versão distribuído que permite registrar alterações, trabalhar com branches, integrar mudanças através de merges e colaborar utilizando repositórios remotos hospedados em plataformas como GitHub. Seu fluxo principal consiste em editar arquivos no Working Directory, prepará-los na Staging Area com `git add` e registrá-los no repositório através de `git commit`.
+
+Sim. Para README do GitHub, o mais comum hoje é usar **Mermaid**, que gera diagramas automaticamente.
+
+### 📌 Fluxograma do Fluxo Básico do Git (Módulo 1)
+
+```mermaid
+flowchart LR
+
+A[Working Directory<br/>Editar Arquivos] --> B[git add]
+B --> C[Staging Area]
+C --> D[git commit]
+D --> E[Local Repository]
+
+E --> F[git push]
+F --> G[Remote Repository GitHub]
+
+G --> H[git pull]
+H --> A
+```
+🌿 Fluxo de Branches
+
+```mermaid
+gitGraph
+    commit
+    commit
+    branch feature-login
+    checkout feature-login
+    commit
+    commit
+    checkout main
+    merge feature-login
+    commit
+```
+🔄 Ciclo de Vida dos Arquivos
+
+```mermaid
+flowchart LR
+
+A[Untracked] -->|git add| B[Staged]
+B -->|git commit| C[Unmodified]
+C -->|Editar Arquivo| D[Modified]
+D -->|git add| B
+```
+
