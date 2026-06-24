@@ -2,7 +2,7 @@
 
 Versionamento de códigos com parceria com +praTI.
 
-# 🚀 Git e GitHub - Resumo das Aulas 1 a 6 modulo
+# 🚀 Git e GitHub - Resumo das Aulas 1 a 7
 
 # 🚀 Módulo 2 - Controle de Versão (Intermediário/Avançado)
 
