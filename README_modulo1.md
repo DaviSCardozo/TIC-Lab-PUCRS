@@ -4,7 +4,7 @@ Versionamento de códigos com parceria com +praTI.
 
 # Módulo 01 - Controle de Versão (Básico)
 
-# 🚀 Git e GitHub - Resumo das Aulas 1 a 6 modulo
+# 🚀 Git e GitHub - Resumo das Aulas 1 a 6 
 
 ## 📚 Aula 1 - Controle de Versão
 
